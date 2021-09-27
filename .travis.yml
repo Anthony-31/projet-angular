@@ -6,9 +6,10 @@ addons:
     chrome: stable
 
 script:
+  - npm ci
   - npm install
   - npm run test -- --watch=false --no-progress --browsers=ChromeHeadless
-  - npm run build -- --base-href /Anthony-31/projet-angular.git/
+  - npm run build -- --base-href /Anthony-31/projet-angular/
 
 deploy:
   provider: pages

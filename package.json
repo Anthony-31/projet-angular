@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href /Anthony-31/projet-angular.git/",
+    "build": "ng build",
     "test": "ng test"
   },
   "private": true,
